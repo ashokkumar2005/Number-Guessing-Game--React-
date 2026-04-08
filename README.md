@@ -1,16 +1,91 @@
-# React + Vite
+# 🎯 Number Guessing Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive number guessing game built using **React + Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🎲 Random number generation (1–10)
+* ⌨️ Controlled input field
+* ✅ Submit button to check guess
+* 📊 Attempt counter
+* 🔼 "Too High" / 🔽 "Too Low" feedback
+* 🎉 Success message when correct
+* 🔄 Auto reset after correct guess
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (useState, useEffect)
+* Vite
+* JavaScript (ES6)
+* CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── App.jsx
+ ├── Result.jsx
+ ├── App.css
+ └── main.jsx
+```
+
+---
+
+## 🧠 How It Works
+
+1. A random number is generated when the app loads
+2. User enters a number
+3. Clicks **Check Guess**
+4. App compares the number:
+
+   * Too High
+   * Too Low
+   * Correct 🎉
+5. Attempts are tracked
+6. On correct guess:
+
+   * Input resets
+   * New number is generated
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/ashokkumar2005/Number-Guessing-Game--React-/tree/main
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Screenshot
+
+(Add your project screenshot here)
+
+---
+
+## 💡 Future Improvements
+
+* Add "Game Over" after limited attempts
+* Show previous guesses
+* Add difficulty levels
+* Improve UI with animations
+
+---
+
+## 👨‍💻 Author
+
+Ashok Sam
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!

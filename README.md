@@ -1,18 +1,18 @@
 # 🎯 Number Guessing Game (React)
 
-A fun and interactive Number Guessing Game built with **React** and **Vite**. The player tries to guess a randomly generated number between **1 and 10**, receiving feedback after each attempt.
+A simple and interactive Number Guessing Game built using **React** and **Vite**. The player must guess a randomly generated number between **1 and 10** while receiving hints after each attempt.
 
 ## 🚀 Features
 
 * 🎲 Random number generation (1–10)
-* ⌨️ Controlled input using React state
-* ✅ Guess validation
+* ⌨️ Controlled input field using React state
+* ✅ Input validation
 * 📊 Attempt counter
 * 🔼 "Too High" feedback
 * 🔽 "Too Low" feedback
-* 🎉 Success message when the correct number is guessed
+* 🎉 Success message on correct guess
 * 🔄 Automatic game reset after winning
-* ⚡ Fast development with Vite
+* ⚡ Fast development environment with Vite
 
 ---
 
@@ -37,17 +37,17 @@ src/
 
 ---
 
-## 🧠 How the Game Works
+## 🧠 How It Works
 
-1. A random number between **1 and 10** is generated when the game starts.
-2. The user enters a guess.
-3. Clicking **Check Guess** compares the input with the generated number.
+1. When the game starts, a random number between **1 and 10** is generated.
+2. The player enters a guess in the input field.
+3. Clicking **Check Guess** compares the entered number with the generated number.
 4. The application displays:
 
    * 🔼 Too High
    * 🔽 Too Low
    * 🎉 Correct Guess
-5. The number of attempts is tracked.
+5. The number of attempts is tracked throughout the game.
 6. When the correct number is guessed:
 
    * The input field is cleared.
@@ -64,7 +64,7 @@ src/
 git clone https://github.com/ashokkumar2005/Number-Guessing-Game--React-.git
 ```
 
-### Navigate to the Project Directory
+### Navigate to the Project Folder
 
 ```bash
 cd Number-Guessing-Game--React-
@@ -76,7 +76,7 @@ cd Number-Guessing-Game--React-
 npm install
 ```
 
-### Start the Development Server
+### Run the Development Server
 
 ```bash
 npm run dev
@@ -86,7 +86,7 @@ npm run dev
 
 ## 📸 Screenshot
 
-Add a screenshot of your project here.
+Add a screenshot of your project:
 
 ```markdown
 ![Number Guessing Game](./screenshot.png)
@@ -94,14 +94,14 @@ Add a screenshot of your project here.
 
 ---
 
-## 💡 Future Improvements
+## 💡 Future Enhancements
 
-* Add difficulty levels (Easy, Medium, Hard)
-* Limit the number of attempts
-* Display previous guesses
-* Add score tracking
-* Add animations and sound effects
-* Create a leaderboard
+* Difficulty levels (Easy, Medium, Hard)
+* Maximum attempt limits
+* Previous guesses history
+* Score tracking system
+* Sound effects and animations
+* Online leaderboard
 
 ---
 
@@ -127,4 +127,4 @@ GitHub: https://github.com/ashokkumar2005
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a **star ⭐** on GitHub.
+If you found this project helpful, please consider giving it a **Star ⭐** on GitHub.
